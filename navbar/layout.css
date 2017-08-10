@@ -1,0 +1,52 @@
+html,body,ul,li,h1,h2,h3 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+.navbar ul {
+    width: 400px;
+    margin: 5px auto;
+    background-color: rgb(241, 241, 241);
+    /* border: 1px solid rgb(241, 241, 241);
+    border-radius: 3px; */
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.16);
+}
+.navbar li {
+    float: left;
+    padding: 5px 20px;
+    list-style: none;
+}
+.navbar li a {
+    line-height: 2;
+    text-decoration: none;
+    color: #333;
+}
+.navbar ul::after {
+    clear: both;
+    content: '';
+    display: block;
+}
+ul a:hover,li:hover {
+    color: #000;
+    background-color: #ccc;
+}
+.btn3 {
+    position: relative;
+}
+.btn3:hover .dropdown {
+    display: block;
+}
+.btn3 .dropdown {
+    display: none;
+    position: absolute;
+    min-width: 120px;
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+    top: 100%;
+    left: 0px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.16);
+} 
+.btn3 a {
+    display: block;
+}
