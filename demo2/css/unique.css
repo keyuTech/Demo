@@ -234,8 +234,12 @@ header .logo a {
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .personal-intro .iconfont {
-    font-size: 30px;
+    font-size: 40px;
 }
+.team .team-icon {
+    display: inline-block;
+    text-align: center;
+} 
 .personal-intro a {
     padding: 5px;
     text-align: center;
@@ -245,5 +249,97 @@ header .logo a {
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #777;
     line-height: 2;
-    display: block;
+    display: inline-block;
+}
+.client {
+    padding: 50px 0;
+}
+.client li {
+    float: left;
+    width: calc(25% - 20px);
+    margin: 10px;
+}
+.contact {
+    background: url(http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/map-image.png) no-repeat;
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.form {
+    display: table;
+    margin: 0 auto;
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.leftform, .rightform {
+    display: table-cell;
+    vertical-align: middle;
+}
+.contact .leftform input,
+.contact .rightform textarea 
+{
+    
+    font-size: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding: 15px; 
+}
+.leftform {
+    width: 50%;
+}
+.contact .leftform input {
+    display: block; 
+    width: 100%;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.contact .rightform textarea {
+    display: block; 
+    width: 100%;
+    margin-left: 50px;
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.footer-icon {
+    display: inline-block;
+    text-align: center;
+}
+.footer .footer-icon .iconfont {
+    font-size: 40px;
+    color: #000;
+}
+.footer {
+    margin: 15px auto;
+    position: relative;
+}
+.copyright {
+    display: inline-block;
+    float: left;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.footer-icon {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.footer-ul {
+    display: inline-block;
+    float: right;
+    padding-top: 10px; 
+}
+.footer-ul li {
+    float: left;
+    padding: 5px 15px;
+
+}
+.footer-ul li a {
+    color: #000;
+}
+.footer-ul li:hover  a {
+    color: rgb(254, 209, 54);
 }

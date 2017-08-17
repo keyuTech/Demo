@@ -39,3 +39,9 @@ body {
     line-height: 2;
     margin-bottom: 40px;
 }
+.icon .iconfont:hover {
+    color: rgb(254, 209, 54)
+}
+.btn:hover {
+    background-color: rgb(254, 197, 3)
+}
